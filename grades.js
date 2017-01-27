@@ -12,19 +12,33 @@ var ltrGrades = [0, 0, 0, 0, 0]; // A, B, C, D, F counts initialized to zero
 // A score of 91-100 is an A
 
 for (i=0; i<scores.length; i++) {
-	switch {
-		(scores[i] <= 60):
-			ltrGrades[4]++; // increment F count
-		( (scores[i] > 60) && (scores[i] <= 70) ):
+	if (scores[i] <= 60) {
+		ltrGrades[4]++; // increment F count
+	}	else if ( (scores[i] > 60) && (scores[i] <= 70) ) {
 			ltrGrades[3]++; // increment D count
-		( (scores[i] > 70) && (scores[i] <= 80) ):
-			ltrGrades[2]++; // increment C count
-		( (scores[i] > 80) && (scores[i] <= 90) ):
-			ltrGrades[1]++; // increment B count
-		(scores[i] > 90):
-			ltrGrades[0]++; // increment A count
-		default:
-    	console.log("what? There's an error...");	
+		}	else if ( (scores[i] > 70) && (scores[i] <= 80) ) {
+				ltrGrades[2]++; // increment C count
+			}	else if ( (scores[i] > 80) && (scores[i] <= 90) ) {
+					ltrGrades[1]++; // increment B count
+				}	else { (scores[i] > 90) 
+						ltrGrades[0]++; // increment A count
+					}
 	}
-}
+
+
+// Use console.log to output the following criteria:
+
+// How many of each grade?
+console.log("The distribution of these grades is: ")
+console.log("As:", ltrGrades[0]);
+console.log("Bs:", ltrGrades[1]);
+console.log("Cs:", ltrGrades[2]);  
+console.log("Ds:", ltrGrades[3]);  
+console.log("Fs:", ltrGrades[4]);
+
+
+// What is the lowest grade?
+console.log("The lowest grade is: ", )
+
+// What is the highest grade?
 
