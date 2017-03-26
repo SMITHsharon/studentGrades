@@ -1,10 +1,10 @@
 # NSS Student Grades
 
 ### Project Description 
-This exercises uses css styling to create a navigation bar out of an unordered list element, and adds visual feedback to the user in response to mouse hovers and clicks. 
+This exercises uses javascript to loop over a small array of grades and (1) output (`console.log`) the distribution, then (2) and print the lowest and highest grades in the set.
 
 #### Screen Grab of console.log output
-![Screen Grab of console.log output](...)
+![Screen Grab of console.log output](https://raw.githubusercontent.com/SMITHsharon/studentGrades/screen/screens/Screen%20Grab%20of%20console.log.png)
 
 
 ### Project Specs
@@ -22,7 +22,7 @@ This exercises uses css styling to create a navigation bar out of an unordered l
 	`var scores = [82, 71, 95, 55, 98, 69, 72, 78, 84, 64, 58, 87];`
 
 ### Output Specs
-Use console.log to output the following criteria:
+Used `console.log` to output the following criteria:
 - How many of each grade?
 - What is the lowest grade?
 - What is the highest grade?
