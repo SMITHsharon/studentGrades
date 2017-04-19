@@ -1,7 +1,7 @@
 # NSS Student Grades
 
 ### Project Description 
-This exercises uses `JavaScript` to loop over a small array of grades and (1) output (`console.log`) the distribution, then (2) print the lowest and highest grades in the set.
+This exercises uses `JavaScript` to (1) loop over a small array of grades, (2) output (`console.log`) the distribution, then (3) print the lowest and highest grades in the set.
 
 #### Screen Grab of console.log output
 ![Screen Grab of console.log output](https://raw.githubusercontent.com/SMITHsharon/studentGrades/screen/screens/Screen%20Grab%20of%20console.log.png)
